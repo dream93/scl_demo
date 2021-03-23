@@ -1,0 +1,3 @@
+[submodule "assets/libs"]
+	path = assets/libs
+	url = https://github.com/dream93/scl.git
