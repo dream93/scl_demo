@@ -18,6 +18,9 @@ export class TestScene extends Component {
     private list: { name: string, call: Function }[] = [
         {
             name: '弹框测试', call: this.onPopup
+        },
+        {
+            name: '适配测试', call: this.onAdapter
         }
     ];
 

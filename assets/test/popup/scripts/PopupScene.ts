@@ -1,5 +1,6 @@
 
 import { _decorator, Component, Prefab } from 'cc';
+import { Toast } from '../../../libs/component/Toast';
 import { EventManager } from '../../../libs/event/manager/EventManager';
 import { PopupManager } from '../../../libs/popup/manager/PopupManager';
 const { ccclass, property } = _decorator;
@@ -23,6 +24,10 @@ export class PopupScene extends Component {
 
     onLoad() {
         EventManager.instance.on(ShowPopupEvent.POPUP2, this.onShowPopup2, this);
+    }
+
+    start() {
+        Toast.makeText(null, '进入适配测试', Toast.LENGTH_LONG).show();
     }
 
     onDestroy() {

@@ -4144,6 +4144,7 @@
       "__id__": 7
     },
     "_enabled": true,
+    "__prefab": null,
     "canvas": {
       "__id__": 166
     },
@@ -4158,7 +4159,7 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "resolutionType": 9,
+    "_resolutionType": 9,
     "_id": "b1GnAxDBhA5Z1xsE8jmy86"
   },
   {
